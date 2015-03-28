@@ -13,6 +13,7 @@
 		9F2F1C9C1ABDDF10008E37E4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F2F1C9B1ABDDF10008E37E4 /* Images.xcassets */; };
 		9F2F1C9F1ABDDF10008E37E4 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9F2F1C9D1ABDDF10008E37E4 /* LaunchScreen.xib */; };
 		9F2F1CAB1ABDDF10008E37E4 /* LocationMapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F2F1CAA1ABDDF10008E37E4 /* LocationMapTests.swift */; };
+		9F2F1CB51AC07736008E37E4 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F2F1CB41AC07736008E37E4 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		9F2F1CA41ABDDF10008E37E4 /* LocationMapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LocationMapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F2F1CA91ABDDF10008E37E4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9F2F1CAA1ABDDF10008E37E4 /* LocationMapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationMapTests.swift; sourceTree = "<group>"; };
+		9F2F1CB41AC07736008E37E4 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F2F1CB51AC07736008E37E4 /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +62,7 @@
 		9F2F1C861ABDDF10008E37E4 = {
 			isa = PBXGroup;
 			children = (
+				9F2F1CB41AC07736008E37E4 /* CoreLocation.framework */,
 				9F2F1C911ABDDF10008E37E4 /* LocationMap */,
 				9F2F1CA71ABDDF10008E37E4 /* LocationMapTests */,
 				9F2F1C901ABDDF10008E37E4 /* Products */,
